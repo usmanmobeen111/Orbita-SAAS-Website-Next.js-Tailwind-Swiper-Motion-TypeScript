@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Veylo",
-  description: "Veylo is a modern workspace that brings project planning, task management, team collaboration, and progress tracking into one organized platform.",
+  title: "Orbita",
+  description: "Orbita is a premium, calm, intelligent productivity platform built around connected systems, shared momentum, and clarity.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

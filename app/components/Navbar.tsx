@@ -32,7 +32,7 @@ const Navbar = () => {
         <div className='flex items-center gap-6 md:gap-8'>
             {navLinks.map((link)=>(
             
-                <a key={link.id} className='text-base sm:text-md font-medium text-navy hover:text-navy/35 transition-colors duration-150' href={link.href}>{link.name}</a>
+                <a key={link.id} className='text-base sm:text-md font-medium text-navy hover:text-primary transition-colors duration-150' href={link.href}>{link.name}</a>
                
             ))}
         </div>

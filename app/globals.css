@@ -15,3 +15,76 @@
     --color-slate:#64748B;
     --color-accent-green:#16A34A;
 }
+
+/* Orbita CTA: subtle elastic interaction */
+@keyframes orbita-jelly {
+  0% {
+    transform: scale(1, 1);
+  }
+
+  30% {
+    transform: scale(1.045, 0.96);
+  }
+
+  50% {
+    transform: scale(0.975, 1.025);
+  }
+
+  70% {
+    transform: scale(1.015, 0.99);
+  }
+
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+.orbita-jelly:hover {
+  animation: orbita-jelly 450ms ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .orbita-jelly:hover {
+    animation: none;
+  }
+  .animate-marquee,
+  .animate-marquee-reverse {
+    animation: none;
+  }
+}
+
+/* Infinite Marquee Animations */
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes marquee-reverse {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 35s linear infinite;
+}
+
+.animate-marquee-reverse {
+  display: flex;
+  width: max-content;
+  animation: marquee-reverse 35s linear infinite;
+}
+
+.animate-marquee:hover,
+.animate-marquee-reverse:hover {
+  animation-play-state: paused;
+}

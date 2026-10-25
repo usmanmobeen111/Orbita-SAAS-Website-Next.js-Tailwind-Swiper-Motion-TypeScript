@@ -53,6 +53,47 @@
   }
 }
 
+/* Feature cards: decorative grid + icon ripple (driven by parent .group hover) */
+.feature-card-grid {
+  width: 9rem;
+  height: 8rem;
+  background-image:
+    linear-gradient(to right, #cbd5e1 1px, transparent 1px),
+    linear-gradient(to bottom, #cbd5e1 1px, transparent 1px);
+  background-size: 20px 20px;
+  background-position: top right;
+  opacity: 0.45;
+  -webkit-mask-image: radial-gradient(ellipse at top right, #000 0%, transparent 75%);
+  mask-image: radial-gradient(ellipse at top right, #000 0%, transparent 75%);
+  transition: width 500ms ease, height 500ms ease, opacity 500ms ease;
+}
+
+.group:hover .feature-card-grid {
+  width: 11rem;
+  height: 10rem;
+  opacity: 0.8;
+}
+
+@keyframes feature-icon-ripple {
+  0% { transform: scale(1); }
+  40% { transform: scale(1.06); }
+  70% { transform: scale(0.98); }
+  100% { transform: scale(1); }
+}
+
+.group:hover .feature-card-icon {
+  animation: feature-icon-ripple 450ms ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .feature-card-grid {
+    transition: none;
+  }
+  .group:hover .feature-card-icon {
+    animation: none;
+  }
+}
+
 /* Infinite Marquee Animations */
 @keyframes marquee {
   0% {

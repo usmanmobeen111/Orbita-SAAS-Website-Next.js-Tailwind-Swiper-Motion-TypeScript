@@ -47,7 +47,7 @@ const Features = () => {
                 From organizing complex projects to keeping everyday tasks moving, Veylo helps your team stay aligned without adding unnecessary complexity.
             </p>
             </div>
-            <div className="mt-12 grid grid-cols-1 gap-6 sm:mt-16 md:grid-cols-3 lg:gap-8">
+            <div className="mt-12 grid grid-cols-1 gap-6 sm:mt-16 md:grid-cols-2 lg:grid-cols-3 lg:gap-8 md:[&>:last-child:nth-child(odd)]:col-span-2 lg:[&>:last-child:nth-child(odd)]:col-span-1">
             {features.map((feature)=>(
                 <FeatureCards key={feature.id} title={feature.title} description={feature.description} Icon={feature.icon}/>
             ))}

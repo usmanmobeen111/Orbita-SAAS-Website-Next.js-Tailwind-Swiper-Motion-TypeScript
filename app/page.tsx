@@ -4,6 +4,7 @@ import Hero from './components/Hero'
 import TrustedBy from './components/TrustedBy'
 import TeamSection from './components/TeamSection'
 import Features from './components/Features'
+import Showcase from './components/Showcase'
 
 const page = () => {
   return (
@@ -11,6 +12,7 @@ const page = () => {
     <TrustedBy/>
     <TeamSection/>
     <Features/>
+    <Showcase/>
     </div>
   )
 }

@@ -4,7 +4,7 @@ import { FaArrowRight } from 'react-icons/fa'
 
 const Hero = () => {
   return (
-    <div className='min-h-screen relative overflow-x-hidden overflow-y-clip text-center'>
+    <div id='home' className='min-h-screen relative overflow-x-hidden overflow-y-clip text-center'>
       <Navbar />
       <img className='absolute inset-0 h-full w-full object-cover -z-50 pointer-events-none select-none' src="/hero.jpg" alt="" />
 

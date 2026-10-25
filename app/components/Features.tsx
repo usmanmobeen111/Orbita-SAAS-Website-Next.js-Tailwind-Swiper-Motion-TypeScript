@@ -31,7 +31,7 @@ const features = [
 const Features = () => {
     return (
         <section id="features" className="bg-white py-20 sm:py-24">
-        <div className="mx-auto max-w-7xl px-6 md:px-10">
+        <div id="solutions-overview" className="mx-auto max-w-7xl px-6 md:px-10">
             <div className="text-center">
             {/* User's Original Heading */}
             <h2 className="text-3xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-navy leading-[1.15] px-4">

@@ -3,32 +3,32 @@ const navLinks = [
     {
         id: 1,
         name: 'Features',
-        href: '#'
+        href: '#features'
     },
     {
         id:2,
         name: 'Solutions',
-        href: '#'
+        href: '#solutions'
     },
     {
         id:3,
         name: 'Pricing',
-        href: '#'
+        href: '#pricing'
     },
     {
         id:4,
         name: 'Resources',
-        href: '#'
+        href: '#testimonials'
     },
 ]
 
 const Navbar = () => {
   return (
     <div className='flex items-center justify-between px-6 md:px-20 lg:px-40 py-6  relative z-10'>
-        <div className='flex items-center gap-3'>
+        <a href="#home" className='flex items-center gap-3'>
             <img src="/orbita.svg" className='w-12 h-12 object-contain' alt="Orbita" />
             <h1 className='text-2xl font-bold text-navy tracking-tight'>Orbita</h1>
-        </div>
+        </a>
         <div className='flex items-center gap-6 md:gap-8'>
             {navLinks.map((link)=>(
             

@@ -5,6 +5,9 @@ import TrustedBy from './components/TrustedBy'
 import TeamSection from './components/TeamSection'
 import Features from './components/Features'
 import Showcase from './components/Showcase'
+import Testimonials from './components/Testimonials'
+import Pricing from './components/Pricing'
+import Footer from './components/Footer'
 
 const page = () => {
   return (
@@ -13,6 +16,9 @@ const page = () => {
     <TeamSection/>
     <Features/>
     <Showcase/>
+    <Testimonials/>
+    <Pricing/>
+    <Footer/>
     </div>
   )
 }

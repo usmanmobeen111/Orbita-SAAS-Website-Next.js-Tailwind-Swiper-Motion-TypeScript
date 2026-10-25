@@ -81,7 +81,7 @@ const TrustedBy = () => {
       : tools.filter((t) => t.category === selectedCategory);
 
   return (
-    <section className="relative pt-20 pb-20 px-4 sm:px-6 overflow-hidden">
+    <section id="integrations" className="relative pt-20 pb-20 px-4 sm:px-6 overflow-hidden">
   
 
       {/* Header section */}

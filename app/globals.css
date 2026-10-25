@@ -16,6 +16,13 @@
     --color-accent-green:#16A34A;
 }
 
+/* Smooth in-page navigation (disabled for users who prefer reduced motion) */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
 /* Orbita CTA: subtle elastic interaction */
 @keyframes orbita-jelly {
   0% {

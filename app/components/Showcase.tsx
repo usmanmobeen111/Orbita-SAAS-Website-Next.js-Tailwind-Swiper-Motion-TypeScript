@@ -211,7 +211,7 @@ const AnalyticsMock = () => (
 
 const Showcase = () => {
   return (
-    <section id='showcase' className='relative isolate overflow-hidden bg-white py-20 sm:py-24'>
+    <section id='solutions' className='relative isolate overflow-hidden bg-white py-20 sm:py-24'>
       {/* Atmospheric background: vertical mask fades top and bottom into the page */}
       <img
         src='/showcase.jpg'

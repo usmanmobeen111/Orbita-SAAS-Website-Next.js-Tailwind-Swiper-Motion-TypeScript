@@ -81,12 +81,8 @@ const TrustedBy = () => {
       : tools.filter((t) => t.category === selectedCategory);
 
   return (
-    <section className="relative pt-44 sm:pt-52 md:pt-60 pb-20 px-4 sm:px-6 overflow-hidden">
-      {/* Subtle atmospheric ambient glow */}
-      <div
-        className="pointer-events-none absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-175 h-87.5 bg-blue-100/40 blur-[120px] rounded-full -z-10"
-        aria-hidden="true"
-      />
+    <section className="relative pt-20 pb-20 px-4 sm:px-6 overflow-hidden">
+  
 
       {/* Header section */}
       <div className="max-w-4xl mx-auto text-center">

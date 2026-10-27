@@ -7,8 +7,8 @@ const columns = [
     title: 'Product',
     links: [
       { label: 'Features', href: '#features' },
-      { label: 'Projects', href: '#solutions' },
-      { label: 'Task Management', href: '#solutions' },
+      { label: 'Projects', href: '#workspace' },
+      { label: 'Task Management', href: '#workspace' },
       { label: 'Pricing', href: '#pricing' },
       { label: "What's New" },
     ],
@@ -17,7 +17,7 @@ const columns = [
     title: 'Solutions',
     links: [
       { label: 'Project Management', href: '#features' },
-      { label: 'Team Collaboration', href: '#solutions' },
+      { label: 'Team Collaboration', href: '#workspace' },
       { label: 'Team Planning' },
       { label: 'Remote Teams' },
     ],

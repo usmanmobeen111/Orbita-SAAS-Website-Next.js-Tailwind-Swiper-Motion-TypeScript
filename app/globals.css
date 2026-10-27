@@ -16,7 +16,11 @@
     --color-accent-green:#16A34A;
 }
 
-/* Smooth in-page navigation (disabled for users who prefer reduced motion) */
+/* In-page navigation: offset and smooth scroll (respecting reduced motion) */
+html {
+  scroll-padding-top: 5rem;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   html {
     scroll-behavior: smooth;

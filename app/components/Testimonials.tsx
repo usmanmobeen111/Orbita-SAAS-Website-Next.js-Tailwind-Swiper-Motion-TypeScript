@@ -29,7 +29,7 @@ const cardClass = 'flex h-full flex-col rounded-3xl border border-slate-200 bg-w
 
 const Testimonials = () => {
   return (
-    <section id="testimonials" className="bg-white py-20 sm:py-24">
+    <section id="testimonials" className="bg-white py-20 sm:py-24 scroll-mt-12">
       <div className="mx-auto max-w-7xl px-6 md:px-10">
         <div className="text-center">
           {/* User's Original Heading */}

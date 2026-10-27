@@ -98,7 +98,7 @@ const TeamSection = () => {
   return (
     <section
       id="people"
-      className="relative overflow-hidden py-20  bg-linear-to-b from-white via-slate-50/50 to-white"
+      className="relative overflow-hidden py-20 bg-linear-to-b from-white via-slate-50/50 to-white scroll-mt-12"
     >
       {/* Subtle background ambient blur */}
       <div

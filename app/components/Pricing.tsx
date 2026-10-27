@@ -59,7 +59,7 @@ const Pricing = () => {
     }`
 
   return (
-    <section id="pricing" className="bg-white py-20 sm:py-24">
+    <section id="pricing" className="bg-white py-20 sm:py-24 scroll-mt-12">
       <div className="mx-auto max-w-7xl px-6 md:px-10">
         <div className="text-center">
           {/* Heading as specified in the brief */}

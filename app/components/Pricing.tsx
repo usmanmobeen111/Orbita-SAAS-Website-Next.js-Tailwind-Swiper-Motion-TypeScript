@@ -63,13 +63,14 @@ const Pricing = () => {
       <div className="mx-auto max-w-7xl px-6 md:px-10">
         <div className="text-center">
           {/* Heading as specified in the brief */}
+             
           <h2 className="text-3xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-navy leading-[1.15] px-4">
-            Loved by{" "}
+            Great{" "}
             <span className="text-primary font-dm-serif-display italic font-normal">
-              teams
-            </span>{" "}
+              work
+            </span>{" "}starts
             <br className="hidden sm:block" />
-            that get things done.
+            with the right plan
           </h2>
 
           <p className="text-base sm:text-lg text-slate-600 max-w-2xl mx-auto mt-5 px-4 font-normal leading-relaxed">

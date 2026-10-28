@@ -100,7 +100,7 @@ const Footer = () => {
         }}
       />
 
-      <div className="mx-auto w-full max-w-[95vw] 2xl:max-w-7xl rounded-3xl md:rounded-[2.5rem] border border-slate-200/90 bg-white p-6 sm:p-8 md:p-10 lg:p-12 xl:p-14 shadow-xl shadow-slate-900/5">
+      <div className="mx-auto w-full max-w-[95vw]  rounded-3xl md:rounded-[2.5rem] border border-slate-200/90 bg-white p-6 sm:p-8 md:p-10 lg:p-12 xl:p-14 shadow-xl shadow-slate-900/5">
         <div className="grid gap-10 md:gap-12 lg:grid-cols-12">
           {/* Brand + newsletter */}
           <div className="lg:col-span-5">

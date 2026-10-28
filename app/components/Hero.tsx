@@ -8,7 +8,7 @@ const Hero = () => {
       <Navbar />
       <img
         className='absolute inset-0 h-full w-full object-cover object-top -z-50 pointer-events-none select-none'
-        src='/hero.jpg'
+        src='/hero.webp'
         alt=''
       />
 
@@ -36,7 +36,7 @@ const Hero = () => {
         <div className='w-full max-w-5xl px-4 md:px-8 lg:px-0 mx-auto flex justify-center'>
           <img
             className='w-full h-52 md:h-80 lg:h-auto max-w-5xl rounded-xl border block md:hidden lg:hidden xl:hidden border-[#E2E8F0] shadow-xl shadow-slate-900/10   2xl:block 2xl:absolute 2xl:left-1/2 2xl:-translate-x-1/2 2xl:-bottom-32 2xl:mb-16'
-            src='/hero_dashboard.jpg'
+            src='/hero_dashboard.webp'
             alt='Orbita Dashboard Preview'
           />
         </div>

@@ -8,7 +8,7 @@ export type PricingPlan = {
   features: string[]
   cta: string
   featured?: boolean
-  /** Optional decorative landscape used as the featured card's background, e.g. /pricing_card.jpg */
+  /** Optional decorative landscape used as the featured card's background, e.g. /pricing_card.webp */
   artwork?: string
 }
 

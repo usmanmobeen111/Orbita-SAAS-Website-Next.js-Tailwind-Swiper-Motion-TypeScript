@@ -4,7 +4,7 @@ import { useState } from 'react'
 import PricingCard, { type PricingPlan } from './PricingCard'
 
 /* Illustrative prototype pricing, per workspace per month.
-   The Pro card uses /pricing_card.jpg as its landscape backdrop. */
+   The Pro card uses /pricing_card.webp as its landscape backdrop. */
 const plans: PricingPlan[] = [
   {
     name: 'Basic',
@@ -30,7 +30,7 @@ const plans: PricingPlan[] = [
     ],
     cta: 'Get Started',
     featured: true,
-    artwork: '/pricing_card.jpg',
+    artwork: '/pricing_card.webp',
   },
   {
     name: 'Enterprise',

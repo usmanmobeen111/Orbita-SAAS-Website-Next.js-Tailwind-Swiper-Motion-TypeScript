@@ -214,7 +214,7 @@ const Showcase = () => {
     <section id='workspace' className='relative isolate overflow-hidden bg-white py-20 sm:py-24 scroll-mt-12'>
       {/* Atmospheric background: vertical mask fades top and bottom into the page */}
       <img
-        src='/showcase.jpg'
+        src='/showcase.webp'
         alt=''
         aria-hidden='true'
         className='pointer-events-none absolute inset-0 -z-10 h-full w-full select-none object-cover mask-[linear-gradient(to_bottom,transparent_0%,#000_25%,#000_75%,transparent_100%)]'

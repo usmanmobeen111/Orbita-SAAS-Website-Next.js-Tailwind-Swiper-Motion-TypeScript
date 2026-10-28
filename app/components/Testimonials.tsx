@@ -1,7 +1,7 @@
 import { HiStar, HiArrowRight } from 'react-icons/hi2'
 
 /* Fictional prototype content, not real customer reviews.
-   Avatar `src` values are placeholder CDN images; swap them for local paths (e.g. "/team/1.jpg") later. */
+   Avatar `src` values are placeholder CDN images; swap them for local paths (e.g. "/team/1.webp") later. */
 const testimonials = [
   {
     id: 1,

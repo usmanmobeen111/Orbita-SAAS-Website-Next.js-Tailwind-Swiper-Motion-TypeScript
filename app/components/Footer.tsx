@@ -90,7 +90,7 @@ const Footer = () => {
       {/* Landscape background: top edge softly fades into the white section above */}
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-        src="/footer.jpg"
+        src="/footer.webp"
         alt=""
         aria-hidden="true"
         className="pointer-events-none absolute inset-0 -z-10 h-full w-full select-none object-cover object-bottom"

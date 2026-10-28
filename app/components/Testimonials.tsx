@@ -25,7 +25,7 @@ const summaryAvatars = [
   { id: 3, src: 'https://i.pravatar.cc/80?img=15' },
 ]
 
-const cardClass = 'flex h-full flex-col w-[80vw] mx-auto sm:w-auto rounded-3xl border border-slate-200 bg-white p-6 shadow-xs sm:p-8'
+const cardClass = 'flex h-full flex-col w-[80vw] md:w-full mx-auto sm:w-auto rounded-3xl border border-slate-200 bg-white p-6 shadow-xs sm:p-8'
 
 const Testimonials = () => {
   return (

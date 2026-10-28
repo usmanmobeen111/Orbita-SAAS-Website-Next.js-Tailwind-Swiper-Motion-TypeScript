@@ -54,8 +54,7 @@ const Pricing = () => {
   const [yearly, setYearly] = useState(false)
 
   const toggleClass = (active: boolean) =>
-    `flex items-center gap-2 rounded-full px-4 py-2 text-sm font-semibold transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary sm:px-5 ${
-      active ? 'bg-primary text-white' : 'text-slate-600 hover:text-navy'
+    `flex items-center gap-2 rounded-full px-4 py-2 text-sm font-semibold transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary sm:px-5 ${active ? 'bg-primary text-white' : 'text-slate-600 hover:text-navy'
     }`
 
   return (
@@ -63,7 +62,7 @@ const Pricing = () => {
       <div className="mx-auto max-w-7xl px-6 md:px-10">
         <div className="text-center">
           {/* Heading as specified in the brief */}
-             
+
           <h2 className="text-3xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-navy leading-[1.15] px-4">
             Great{" "}
             <span className="text-primary font-dm-serif-display italic font-normal">

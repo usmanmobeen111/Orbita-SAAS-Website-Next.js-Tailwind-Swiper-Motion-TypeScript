@@ -18,9 +18,8 @@ const PricingCard = ({ plan, yearly }: { plan: PricingPlan, yearly: boolean }) =
 
   return (
     <article
-      className={`relative isolate flex h-full  flex-col overflow-hidden rounded-3xl border bg-white p-6 text-navy sm:p-8 ${
-        featured ? 'border-slate-200 shadow-lg shadow-slate-900/5' : 'border-slate-200 shadow-xs'
-      }`}
+      className={`relative isolate flex h-full  flex-col overflow-hidden rounded-3xl border bg-white p-6 text-navy sm:p-8 ${featured ? 'border-slate-200 shadow-lg shadow-slate-900/5' : 'border-slate-200 shadow-xs'
+        }`}
     >
       {featured && plan.artwork && (
         <>
@@ -58,9 +57,8 @@ const PricingCard = ({ plan, yearly }: { plan: PricingPlan, yearly: boolean }) =
 
       <button
         type="button"
-        className={`group mt-6 flex w-full items-center justify-between rounded-full py-2 pl-5 pr-2 text-sm font-semibold transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary ${
-          featured ? 'bg-navy text-white hover:bg-slate-800' : 'bg-slate-100 text-navy hover:bg-paleblue'
-        }`}
+        className={`group mt-6 flex w-full items-center justify-between rounded-full py-2 pl-5 pr-2 text-sm font-semibold transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary ${featured ? 'bg-navy text-white hover:bg-slate-800' : 'bg-slate-100 text-navy hover:bg-paleblue'
+          }`}
       >
         {plan.cta}
         <span className={`flex h-8 w-8 items-center justify-center rounded-full transition-transform duration-300 group-hover:translate-x-0.5 ${featured ? 'bg-white text-navy' : 'bg-white text-navy'}`}>

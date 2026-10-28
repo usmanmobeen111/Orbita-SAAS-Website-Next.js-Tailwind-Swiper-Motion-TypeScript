@@ -109,7 +109,7 @@ const TeamSection = () => {
       <div className="mx-auto max-w-7xl px-6 md:px-10">
         {/* Section Header */}
         <div className="mb-12 sm:mb-16 lg:mb-20 text-center">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-50/90 border border-blue-200/70 text-primary text-xs font-semibold tracking-wider uppercase mb-5 shadow-xs">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-50/90 border border-blue-200/70 text-primary text-[10px] md:text-sm font-semibold tracking-wider uppercase mb-5 shadow-xs">
             <span className="flex h-2 w-2 rounded-full bg-primary animate-pulse" />
             People & Culture
           </div>
@@ -122,7 +122,7 @@ const TeamSection = () => {
               </span>
             </h2>
 
-            <p className="max-w-md text-base sm:text-lg text-slate-600 leading-relaxed">
+            <p className="max-w-md text-sm md:text-base sm:text-lg text-slate-600 leading-relaxed">
               Orbita brings designers, engineers, and product leaders into a single,
               harmonious cadence—where every contribution connects to the bigger mission.
             </p>
@@ -130,7 +130,7 @@ const TeamSection = () => {
         </div>
 
         {/* Team Member Cards */}
-        <div className="grid grid-cols-1 items-start gap-6 sm:grid-cols-3 sm:gap-6 lg:gap-8">
+        <div className="grid grid-cols-1 items-start gap-6 sm:grid-cols-3 sm:gap-6 lg:gap-8 ">
           {teamMembers.map((person) => {
             return (
               <div
@@ -277,7 +277,7 @@ const TeamSection = () => {
         <div className="mt-16 sm:mt-24 lg:mt-28 border-t border-slate-200" />
 
         {/* Refined & Clean Stats Section (Matching Design) */}
-        <div className="grid justify-items-center grid-cols-1 gap-8 py-10 sm:grid-cols-3 sm:gap-6 sm:py-14 lg:py-16">
+        <div className="grid justify-items-center text-center md:text-left grid-cols-1 gap-8 py-10 sm:grid-cols-3 sm:gap-6 sm:py-14 lg:py-16">
           {stats.map((stat) => (
             <div key={stat.label} className="group cursor-default">
               <p className="text-4xl font-bold tracking-tight text-navy sm:text-5xl lg:text-6xl transition-colors duration-300 group-hover:text-primary">

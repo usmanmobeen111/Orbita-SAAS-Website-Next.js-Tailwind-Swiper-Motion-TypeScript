@@ -82,12 +82,12 @@ const TrustedBy = () => {
 
   return (
     <section id="integrations" className="relative pt-20 pb-20 px-4 sm:px-6 overflow-hidden scroll-mt-12">
-  
+
 
       {/* Header section */}
       <div className="max-w-4xl mx-auto text-center">
         {/* Modern Supertitle Pill */}
-        <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-50/90 border border-blue-200/70 text-primary text-xs font-semibold tracking-wider uppercase mb-5 shadow-xs">
+        <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-50/90 border border-blue-200/70 text-primary text-[10px] md:text-sm font-semibold tracking-wider uppercase mb-5 shadow-xs">
           <span className="flex h-2 w-2 rounded-full bg-primary animate-pulse" />
           Integrations & Ecosystem
         </div>
@@ -102,7 +102,7 @@ const TrustedBy = () => {
         </h2>
 
         {/* Persuasive Subheading */}
-        <p className="text-base sm:text-lg text-slate-600 max-w-2xl mx-auto mt-5 px-4 font-normal leading-relaxed">
+        <p className="text- sm:text-lg text-slate-600 max-w-2xl mx-auto mt-5 px-4 font-normal leading-relaxed">
           Connect Orbita with your everyday engineering, design, and team
           communication platforms. Keep everyone aligned without switching tabs.
         </p>
@@ -115,11 +115,10 @@ const TrustedBy = () => {
               <button
                 key={cat}
                 onClick={() => setSelectedCategory(cat)}
-                className={`text-xs sm:text-sm font-medium px-4 py-1.5 rounded-full transition-all duration-200 cursor-pointer ${
-                  isActive
+                className={`text-xs sm:text-sm font-medium px-4 py-1.5 rounded-full transition-all duration-200 cursor-pointer ${isActive
                     ? "bg-navy text-white shadow-sm scale-105"
                     : "bg-white text-slate-600 hover:text-navy border border-slate-200/80 hover:border-slate-300"
-                }`}
+                  }`}
               >
                 {cat}
               </button>
@@ -142,7 +141,7 @@ const TrustedBy = () => {
                   <img
                     src={tool.src}
                     alt={tool.name}
-                    className="w-7 h-7 object-contain grayscale group-hover:grayscale-0 group-hover:scale-110 transition-all duration-300"
+                    className="w-7 h-7 object-contain sm:grayscale  sm:group-hover:grayscale-0 group-hover:scale-110 transition-all duration-300"
                   />
                 </div>
                 <span className="text-[11px] font-semibold tracking-wide px-2.5 py-0.5 rounded-full bg-slate-100 text-slate-600 group-hover:bg-blue-100 group-hover:text-primary transition-colors">
@@ -196,7 +195,7 @@ const TrustedBy = () => {
               <img
                 src={tool.src}
                 alt={tool.name}
-                className="w-5 h-5 object-contain grayscale group-hover:grayscale-0 group-hover:scale-110 transition-all duration-200"
+                className="w-5 h-5 object-contain sm:grayscale sm:group-hover:grayscale-0 group-hover:scale-110 transition-all duration-200"
               />
               <span className="text-sm font-semibold text-navy group-hover:text-primary transition-colors">
                 {tool.name}
